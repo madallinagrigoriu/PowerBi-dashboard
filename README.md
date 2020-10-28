@@ -1,13 +1,14 @@
 # Power Bi dashboard 
 
-Context: Data is exported from Salesforce 
--The pbix.file has been created following the requirments below.
+<u>Context<u>
+*Data is exported from Salesforce 
+*The pbix.file has been created following the requirments below.
 
 
-1.	Data model based on the sources in data.xlsx
-2.	Calculations 
-a.	Amounts are in local currency, but the report needs to display them in EUR and USD; on the charts the total amount is displayed 
-b.	Subscription End Date - Subscription Start Date + Term (months)
+*1.	Data model based on the sources in data.xlsx
+*2.	Calculations 
+*a.	Amounts are in local currency, but the report needs to display them in EUR and USD; on the charts the total amount is displayed 
+*b.	Subscription End Date - Subscription Start Date + Term (months)
 c.	New ACV = 
 0 if Close Date before 2018 
 Upsell if Close Date in 2018 and 2019 and Acquisition Model is Renewal 
