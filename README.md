@@ -1,8 +1,8 @@
 # Power Bi dashboard 
 
 <u>Context<u>
-*Data is exported from Salesforce 
-*The pbix.file has been created following the requirments below.
+▶︎ Data is exported from Salesforce 
+▶︎ The pbix.file has been created following the requirments below.
 
 
 *1.	Data model based on the sources in data.xlsx
