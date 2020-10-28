@@ -1,9 +1,8 @@
-# PowerBi dashboard
- PowerBi dashboard setup based on Salesforce data
- 
- 
- 
-<b>Power BI report (.pbix file) following the requirments below:<b>
+# Power Bi dashboard 
+
+Context: Data is exported from Salesforce 
+The pbix.file has been created following the requirments below.
+
 
 1.	Data model based on the sources in data.xlsx
 2.	Calculations 
@@ -34,3 +33,5 @@ h.	Catalog Category =
 i.	Top Parent Account – the top parent name must be extracted from the initial string 
 j.	The table must contain the following information: Account Name, Opportunity ID, Opportunity Name, Stage, Forecast Category, Main Catalog Line, Acquisition Model, Close Date, Total Amount, License, TCV, ACV, Service, Upsell, Downsell Maintenance, Signature, Opportunity Owner, Probability, Term, Subscription Start Date, Subscription End Date, Opportunity Source, BU Name, Partner Type, Partner Name, Created Date, Created By  
 3.	Report filters: Top Parent Account, Account Name, CSM Segmentation 
+
+<b>Note: In order to see the report you need to have installed Power Bi, you can do it from here https://powerbi.microsoft.com/en-us/downloads/<b>
